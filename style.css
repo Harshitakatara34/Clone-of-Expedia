@@ -1,0 +1,234 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+#container{
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+
+#container>.nav-bar{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    /* border: 1px solid red; */
+    justify-content: space-between;
+}
+
+#container>.nav-bar>.nav-bar-left{
+    width: 30%;
+    height: 80px;
+    display: flex;
+    /* border: 1px solid blue; */
+}
+
+#container>.nav-bar>.nav-bar-left>div{
+    display: flex;
+    /* border: 1px solid green; */
+    width: 70%;
+    height: auto;
+    margin-left: 150px;
+    justify-content: space-between;
+}
+
+#container>.nav-bar>.nav-bar-left>div>div:nth-child(1)>img{
+    width: 70%;
+    margin-top: 10px;
+    margin-left: 40px;
+    cursor: pointer;
+    /* border: 1px solid red; */
+}
+
+#container>.nav-bar>.nav-bar-left>div>div:nth-child(2){
+    /* border: 1px solid red; */
+    margin-right: 20px;
+    margin-top: 20px;
+    width: 120px;
+}
+
+#container>.nav-bar>.nav-bar-left>div>div:nth-child(2)>select{
+    width: 120px;
+    font-weight: 600;
+    font-size: 14px;
+    color: #343B53;
+    border: none;
+    cursor: pointer;
+}
+
+
+
+/* ---------Nav-bar-right----------- */
+
+
+#container>.nav-bar>.nav-bar-right{
+    width: 35%;
+    height: 80px;
+    /* border: 1px solid blue; */
+}
+
+#container>.nav-bar>.nav-bar-right>div{
+    display: flex;
+    width: 100%;
+    height: 70px;
+    margin: auto;
+    /* border: 1px solid red; */
+}
+
+#container>.nav-bar>.nav-bar-right>div>div{
+    width: 70%;
+    /* border: 1px solid blue; */
+    margin-top: 25px;
+    /* padding: 0px 40px; */
+}
+
+#container>.nav-bar>.nav-bar-right>div>div>a{
+    padding-left: 40px;
+    font-size: 17px;
+    font-weight: 550;
+    text-decoration: none;
+    color: #343B53;
+}
+#container>.nav-bar>.nav-bar-right>div>div>a:nth-child(1){
+    padding-left: 200px;
+}
+
+#container>.nav-bar>.nav-bar-right>div>div>i{
+    padding-left: 40px;
+    color: #343B53;
+    height: 30px;
+    cursor: pointer;
+    margin-top: 12px;
+    /* width: 20px; */
+    /* border: 1px solid red; */
+} 
+
+
+#container>.nav-bar>.nav-bar-right>div>div>i:nth-child(1){
+    padding-left: 1px;
+}
+
+
+/* ----------------------------------------------------------------- */
+
+
+#container>.body-top{
+    width: 100%;
+    height: 320px;
+    /* border: 1px solid red; */
+}
+
+#container>.body-top>.body-top-content{
+    width: 80%;
+    height: 270px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px, rgb(209, 213, 219) 0px 0px 0px 1px inset;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 70px;
+}
+
+#container>.body-top>.body-top-content>hr{
+    width: 90%;
+    margin: auto;
+}
+
+#container>.body-top>.body-top-content>.top-body-nav{
+    width: 90%;
+    height: 50px;
+    margin: auto;
+    display: flex;
+    /* border: 1px solid red; */
+    align-items: center;
+    justify-content: center;
+}
+
+#container>.body-top>.body-top-content>.top-body-nav>a{
+    margin: 0px 20px;
+    font-size: 18px;
+    text-decoration: none;
+    color: #343B53;
+    font-weight: 550;
+    
+}
+
+#container>.body-top>.body-top-content>.top-body-nav>a:hover{
+    text-decoration: underline blue;
+}
+
+#container>.body-top>.body-top-content>.bottom-body-nav{
+    width: 90%;
+    height: 80px;
+    margin: auto;
+    /* margin-top: 10px; */
+    border: 1px solid red;
+    display: flex;
+}
+
+#container>.body-top>.body-top-content>.bottom-body-nav>input{
+    height: 55px;
+    padding: 0px 30px;
+    margin: 0px 10px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+#container>.body-top>.body-top-content>.bottom-body-nav>input:nth-child(1){
+    width: 450px;
+}
+
+#container>.body-top>.body-top-content>.bottom-body-nav>input:nth-child(2){
+    width: 100px;
+}
+
+#container>.body-top>.body-top-content>.bottom-body-nav>input:nth-child(3){
+    width: 100px;
+}
+
+#container>.body-top>.body-top-content>.bottom-body-nav>input:nth-child(4){
+    width: 250px;
+}
+
+#container>.body-top>.body-top-content>.check-box{
+    width: 90%;
+    height: 50px;
+    margin: auto;
+    border: 1px solid red;
+}
+
+#container>.body-top>.body-top-content>.check-box>input{
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+
+
+#container>.body-top>.body-top-content>.check-box>label{
+    font-size: 18.5px;
+    font-weight: 500;
+    padding-left: 10px;
+    cursor: pointer;
+}
+
+#container>.body-top>.body-top-content>.check-btn{
+    width: 190px;
+    margin: auto;
+}
+
+#container>.body-top>.body-top-content>.check-btn>button{
+    width: 200px;
+    height: 55px;
+    font-size: 18px;
+    font-weight: 500;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 9px;
+    background-color: #2950B8;
+}
+
+#container>.body-top>.body-top-content>.check-btn>button:hover{
+    background-color: #1b3786;
+}

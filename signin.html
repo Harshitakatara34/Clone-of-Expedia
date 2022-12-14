@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>signin</title>
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup</title>
+    <style>
+        #imagetop{
+            margin-left: 46.5%;
+            height: 30px;
+        }
+        #box{
+            display: flex;
+        }
+       #left{
+      height: 600px;
+      width: 25%;
+      border: 0px solid red;
+      margin-top: 4%;
+      
+       }
+
+       #allcenter{
+        text-align: center;
+       }
+       .google{
+        background-color: rgb(0, 0, 255);
+       }
+      
+       body{
+            
+            background-color: white;
+            background-repeat: no-repeat;
+            background-size: 1344px 1315px;
+    background-position: calc(50% - 514px) -216px;
+        }
+       #right>p{
+        width: 60%;
+        margin: auto;
+        text-align: left;
+        margin-top: 200px;
+        font-size: 20px;
+        margin-left: 170px;
+       }
+       #right>h3{
+        margin-left: 170px;
+        font-size: 15px;
+       
+       }
+       .none{
+        text-decoration: none;
+        color: gray;
+        margin-left: 40%;
+        
+       }
+       #right>h2{
+        margin-left: 170px;
+         
+       }
+       #left>input{
+        width: 97%;
+        height: 30px;
+       }
+       #left>button{
+        width: 100%;
+        border: 0px;
+        border-radius: 5px;
+        height: 40px;
+        margin-top: 10px;
+       }
+       .orange{
+        background-color: blue;
+        color: white;
+
+       }
+       .orange:hover{
+        background-color: darkblue;
+        color: white;
+        cursor: pointer;
+        
+       }
+
+       @media all and (min-width:300px) and (max-width:900px)
+   {
+
+    #box{
+            display: flex;
+           
+        }
+       #left{
+      height: 600px;
+      width: 40%;
+      border: 0px solid red;
+      margin-top: 30%;
+      margin-left: -20%;
+      
+       }
+       .bottomline{
+        font-size: 20px;
+       }
+    #box{
+            display: flex;
+            margin-left: 25%;
+        }
+        body{
+    background-color: white;
+   }
+   #left{
+      
+   
+   width: 80%;
+      
+      
+       }
+       #left>input{
+        width: 97%;
+        height: 30px;
+       }
+       #left>button{
+        width: 100%;
+        border: 0px;
+        border-radius: 5px;
+        height: 40px;
+        margin-top: 10px;
+       }
+       .orange{
+        background-color: orangered;
+       }
+       #right{
+        width: 10%;
+       }
+    }
+
+    </style>
+</head>
+<body> <form action="">
+ <img id="imagetop" src="https://www.expedia.com/_dms/interstitial/logo.svg?locale=en_GB&siteid=27" alt="">   <hr>
+    <div id="box">
+        <a class="none" href=""></a>
+         
+        <div id="left">
+       <h2>Sign in</h2>
+       <h3>Save an average of 15% on thousands of hotel as a memeber-</h3>
+       
+    <button class="google" >Sign in with Google</button>
+    <h4 id="allcenter">or</h4>
+    <h3>Email</h3>
+       <input id="email" type="email" >
+       <h3>Password</h3>
+       <input id="pass" type="password" >
+<h5 class="bottomline">Selecting this checkbox will keep you signed inot your account on  this 
+    device until you sign out. Do not select this on shared devices.  </h5>
+       
+   <h4 class="bottomline">By signing in, I agree to the Expedia Terms and Conditions,
+    Privacy Statement and Expedia Rewards Terms and Conditons. 
+   </h4>  
+<button class="orange" onClick="store()">Sign in</button>
+       <p>Already have an account?<a class="none" href="">Log in</a>?</p>
+       <p>By creating your account, you agree to the<a class="none" href="">Terms of services</a>and <a class="none" href="">Privacy Policy</a></p>
+        </div>
+    
+     
+    </div>
+</form>
+</body>
+</html>
+<script>
+
+let email = document.getElementById('email');
+var pasw = document.getElementById('pass');
+
+// storing input from register-form
+function store() {
+    localStorage.setItem('name', email.value);
+    localStorage.setItem('passw', pasw.value);
+}
+</script>
+
+
+    
+</body>
+</html>

@@ -1,0 +1,186 @@
+#midbox {
+    margin: auto;
+    /* margin-top: 250px; */
+    height: 320px;
+    /* background-color: red; */
+    /* border: 1px solid #D7D4D2; */
+    width: 95%;
+    display: flex;
+    /* font-family: Centra No2", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; */
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#midsub {
+    width: 60%;
+    border: 1px solid #D7D4D2;
+    height: 100%;
+    border-radius: 3%;
+    /* background-color: aquamarine; */
+    /* box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px; */
+}
+
+#midsubb {
+    /* background-color: bisque; */
+    height: 100%;
+    width: 38%;
+    margin-left: 30px;
+}
+
+#midsubb div {
+    height: 48%;
+    width: 100%;
+    /* background-color: antiquewhite; */
+    border: 1px solid #D7D4D2;
+    border-radius: 5%;
+  /* font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif */
+    /* font-family: Centra No2", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; */
+}
+
+#m {
+
+    margin-top: 15px;
+}
+#midsub>img{
+    width: 100%;
+    border-radius: 3%;
+    height: 70%;
+}
+#h>img{
+    height: 100%;
+    width:30%;
+    border-radius: 3%;
+}
+ #m>img{
+    width:30%;
+    height: 100%;
+    border-radius: 3%;
+ }
+ #coll{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 250px;
+    /* border:2px solid blue; */
+    margin-left: 730px;
+    z-index: 1;
+    margin-top: -300px;
+    height: 300px;
+    /* border: 1px solid yellow; */
+ }
+ .colq{
+    border: 1px solid rgb(255, 255, 255);
+    margin-top: 30px;
+    margin-left: 10px;
+ }
+ .col{
+    border:1px solid rgb(255, 254, 254);
+    margin-left: 10px;
+    /* margin-top: -100px; */
+    /* margin-bottom: 100px; */
+
+    /* background-color: aqua; */
+ }
+  #js,#kc,#kcc{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 30px;
+  }
+  #midi{
+    width:95%;
+    /* border: 1px solid rebeccapurple; */
+    margin: auto;
+    height: 250px;
+    position: relative;
+    z-index: 0;
+    border-radius: 3%;
+  }
+  #midi>img{
+    height:100%;
+    width:100%;
+    /* position:relative */
+    z-index: 0;
+    border-radius: 3%;
+  }
+  #midi h3,#midi p{
+    z-index: 1;
+    /* padding-top: 400px; */
+    position: absolute;
+    color: #F6FFFF;
+    margin-left: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+  }
+  #midi h3{
+    padding-top: 170px;
+  }
+  #midi p{
+    padding-top: 200px;
+  }
+  #para{
+    height: 95vh;
+    width: 95%;
+    /* border: 1px solid blue; */
+    margin: auto;
+    margin-top: 30px;
+    display: flex;
+  }
+  /* strong{
+    text-align: center;
+    color: aqua;
+  } */
+  #para>div{
+    width: 50%;
+    /* border: 1px solid rgb(115, 0, 255); */
+    height: 100%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   font-size: 15px;
+   color: grey;
+  }
+  #str{
+    margin-top: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   
+    margin-left: 50px;
+  }
+
+  #dd{
+    height:50px;
+    width:50px;
+  }
+  #ddd{
+    display: none;
+  }
+  #dd:hover.ddd{
+    display: block;
+    position: absolute;
+  }
+
+  #ser{
+    height: 50px;
+    width:95%;
+    /* border:1px solid black; */
+    /* background-color: aqua; */
+    margin: auto;
+    display: flex;
+    justify-content:space-between;
+}
+/* #ser>div{
+
+} */
+.hi{
+  width: 280px;
+  border: 1px solid #727483;
+  height: 100%;
+  border-radius: 7%;
+  /* padding-left: 20px; */
+  /* padding-top: 10px; */
+  text-align: left;
+  text-align: center;
+}
+#hii{
+  display: grid;
+  width: 50px;
+  /* border: 1px solid blue; */
+  background-color: #3662D8;
+  border-radius: 50%;
+  /* text-align: center; */
+  place-items: center;
+  
+}

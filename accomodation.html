@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="accomodation.css">
+    <style>
+        .down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+  }
+  .arrow {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    margin-left:1200px;
+  }
+  
+    </style>
+</head>
+<body>
+    <div id="container">
+        <div class="nav-bar">
+            <div class="nav-bar-left">
+                <div>
+                    <div>
+                        <img src="image/LOGO-cropped.png" alt="">
+                    </div>
+
+                    <div>
+                        <select value="travel_list">
+                            <option name="moreTravel" id="">More Travel</option>
+                            <option name="moreTravel" id="">More Travel</option>
+                            <option name="moreTravel" id="">More Travel</option>
+                            <option name="moreTravel" id="">More Travel</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="nav-bar-right">
+                <div>
+                    <div>
+                        <i class="fa-sharp fa-solid fa-globe"></i>
+                        <a href="">English</a>
+                        <a href="">List Your Property</a>
+                        <a href="">Support</a>
+                        <a href="">Trips</a>
+                        <i class="fa-sharp fa-solid fa-bell"></i>
+                        <a href="">Sign in</a>
+                        <!-- <i class="fa-solid fa-user"><a href=""></a></i> -->
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+
+
+    <div class="body-top">
+        <h1>All Accommodation Type</h1>
+                        <div class="bottom-body-nav">
+                            <input type="text" placeholder="Going To">
+                            <input type="date" placeholder="Check-In">
+                            <input type="date" placeholder="Check-Out">
+                            <input  type="text" placeholder="Guests 1Room 2Travellers">
+                                <button>Search</button>
+                        </div>
+               
+</div>
+
+    <div id="bottom_part">
+       
+            <p>All Accomodation Type <i onclick="myFunction()"class="arrow down"></i></p>
+            <!-- <i class="arrow down"></i>
+            -->
+            
+   
+      
+      
+        <hr>
+
+
+        <div id="bottom_part_data">
+            <div>
+                <a href="">Aparthoteis</a><br>
+                <a href="">Capsule Hotel</a><br>
+                <a href="">Condo Resorts</a><br>
+                <a href="">Guests House</a><br>
+                <a href="">Motels</a><br>
+                <a href="">RV parks</a><br>
+                <a href="">Raids</a><br>
+                <a href="">Treehouses</a><br>
+            </div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+</body>
+</html>
+<script>
+    function myFunction() {
+  var x = document.getElementById("bottom_part_data");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}
+</script>

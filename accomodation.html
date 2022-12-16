@@ -18,6 +18,7 @@
     display: inline-block;
     padding: 3px;
     margin-left:1200px;
+    
   }
   
     </style>
@@ -58,7 +59,7 @@
 
         </div>
 
-
+</div>
 
     <div class="body-top">
         <h1>All Accommodation Type</h1>
@@ -74,41 +75,128 @@
 
     <div id="bottom_part">
        
-            <p>All Accomodation Type <i onclick="myFunction()"class="arrow down"></i></p>
-            <!-- <i class="arrow down"></i>
-            -->
-            
+            <b>All Accomodation Type</b>
+            <hr>
+            </div>
    
       
+       <!-- <i class="arrow down"></i>
+            -->
       
-        <hr>
-
 
         <div id="bottom_part_data">
             <div>
-                <a href="">Aparthoteis</a><br>
-                <a href="">Capsule Hotel</a><br>
-                <a href="">Condo Resorts</a><br>
-                <a href="">Guests House</a><br>
-                <a href="">Motels</a><br>
-                <a href="">RV parks</a><br>
-                <a href="">Raids</a><br>
-                <a href="">Treehouses</a><br>
+                <div>
+                    <p>Aparthoteis</p>
+                    <p>Capsule Hotel</p>
+                    <p>Condo Resorts<p>
+                    <p>Guests House</p>
+                    <p>Motels</p>
+                    <p>RV parks</p>
+                    <p>Raids</p>
+                    <p>Treehouses</p>
+                </div>
+                <div>
+                    <p>Aparthoteis</p>
+                    <p>Capsule Hotel</p>
+                    <p>Condo Resorts<p>
+                    <p>Guests House</p>
+                    <p>Motels</p>
+                    <p>RV parks</p>
+                    <p>Raids</p>
+                    <p>Treehouses</p>
+                </div>
+                <div>
+                    <p>Aparthoteis</p>
+                    <p>Capsule Hotel</p>
+                    <p>Condo Resorts<p>
+                    <p>Guests House</p>
+                    <p>Motels</p>
+                    <p>RV parks</p>
+                    <p>Raids</p>
+                    <p>Treehouses</p>
+                </div>
+                <div>
+                    <p>Aparthoteis</p>
+                    <p>Capsule Hotel</p>
+                    <p>Condo Resorts<p>
+                    <p>Guests House</p>
+                    <p>Motels</p>
+                    <p>RV parks</p>
+                    <p>Raids</p>
+                    <p>Treehouses</p>
+                </div>
             </div>
-            <div></div>
-            <div></div>
-            <div></div>
+          
         </div>
     </div>
+</div>
+<div id="last-part">
+    <h1>BackPackers Group</h1>
+    <div id="last-part-data">
+        <div>
+            <h5>Company</h5><br>
+            <p>About</p><br>
+            <p>Jobs</p><br>
+            <p>List Your Property</p><br>
+            <p>Partnerships</p><br>
+            <p>News Room</p><br>
+            <p>Investor Relationsship</p><br>
+            <p>Advertising</p><br>
+        </div>
+   <div>
+          <h5>Explore</h5><br>
+            <p>About</p><br>
+            <p>Jobs</p><br>
+            <p>List Your Property</p><br>
+            <p>Partnerships</p><br>
+            <p>News Room</p><br>
+            <p>Investor Relationsship</p><br>
+            <p>Advertising</p><br>
+   </div>
+   <div>
+    <h5>Policies</h5><br>
+            <p>About</p><br>
+            <p>Jobs</p><br>
+            <p>List Your Property</p><br>
+            <p>Partnerships</p><br>
+            <p>News Room</p><br>
+            <p>Investor Relationsship</p><br>
+            <p>Advertising</p><br>
+   </div>
+   <div>
+    <h5>Help</h5><br>
+            <p>About</p><br>
+            <p>Jobs</p><br>
+            <p>List Your Property</p><br>
+            <p>Partnerships</p><br>
+            <p>News Room</p><br>
+            <p>Investor Relationsship</p><br>
+            <p>Advertising</p><br>
+   </div>
+    
+    </div>
+</div>
+<hr>
+<div class="last-para">
+    <p>Expedia, Inc. is not responsible for content on external Web sites.
+        <br>
+        © 2022 Expedia, Inc., an Expedia Group company. All rights reserved. Expedia and the AirplaneLogo are trademarks or registered trademarks of Expedia, Inc. CST# 2029030-50.</p>
+</div>
+ 
 </body>
 </html>
 <script>
-    function myFunction() {
-  var x = document.getElementById("bottom_part_data");
-  if (x.style.display === "none") {
-    x.style.display = "block";
+   let x= document.querySelector("#btn")
+   let cont=document.querySelector("#bottom_part_data")
+x.addEventListener("click",function(){
+     if (cont.style.display === "none") {
+    cont.style.display = "block";
   } else {
-    x.style.display = "none";
+    cont.style.display = "none";
   }
-}
+
+})
+    
+ 
 </script>

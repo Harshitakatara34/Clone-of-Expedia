@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #customer-service{
+            display:flex;
+            justify-content: space-evenly;
+            background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSczZhASpX28HSzAeiUTHUT9XhUzlpdtGX6Hg&usqp=CAU);
+            background-repeat: no-repeat;
+            background-size: 1500px 100px;
+            height:90px;
+            text-align: center;
+        }
+         
+       #search{
+        padding:10px;
+        
+       }
+       #search input{
+        height:30px;
+        width:350px
+       }
+       
+       #after-cs{
+        display: grid;
+        grid-template-columns: repeat(6,1fr);
+        gap:10px;
+        padding:10px;
+        background-color: rgb(230, 229, 229);
+       }
+       #empty{
+        grid-column-start: 1;
+        grid-column-end: 2;
+        
+       }
+       #tohelp{
+        grid-column-start: 2;
+        grid-column-end: 3;
+        
+       }
+       #populartopics{
+        grid-column-start: 3;
+        grid-column-end: 6;
+        
+       }
+       #icon img{
+        height:20px;
+        width:20px
+       }
+       #icon{
+        display:flex;
+        
+       }
+       #icon h4{
+        margin-bottom: 5px;
+        
+       }
+       #tohelp p{
+        color:rgb(11, 183, 251)
+       }
+       #seach{
+        display: flex;
+        justify-content: end;
+       }
+       #seach input{
+        height:35px
+       }
+       .inspop{
+         height:50px;
+         box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;;
+         padding:5px;
+         background-color: white;
+         color: rgb(1, 122, 170);
+       }
+       #nem{
+        background-color: white;
+       }
+       #exp{
+        margin:50px;
+        text-align: center;
+        
+       }
+       #exp button{
+        border:1px solid skyblue;
+        color:rgb(91, 91, 252);
+        height:40px;
+       
+       }
+       #app div img{
+         height:30px;
+         width:20px
+       }
+       #app div{
+        display: flex;
+        margin-left: 20px;
+        margin-top: 20px;
+       }
+       #app{
+        display: flex;
+        
+       }
+       #barcode{
+        margin-left: 100px;
+       
+       }
+       #apptop{
+        display: flex;
+        
+        border:3px solid rgb(46, 46, 249);
+        margin-left:150px;
+        margin-right: 150px;
+       }
+       #apptop div button{
+        background-color: orange;
+        height:40px;
+        width:80px
+       }
+       #apptop div input{
+         height:35px;
+         width:300px
+       }
+       #last{
+        margin-left:150px;
+        margin-right: 150px
+       }
+       .tp{
+           display: flex;
+       }
+       .tp div{
+        margin-left: 10px;
+       }
+       #left{
+         margin-left: 100px;
+       }
+       .ep{
+        display:flex;
+        
+       }
+       .ep1{
+        margin-left: 50px;
+       }
+       #cs2 p{
+         font-size: 30px;
+         color: rgb(68, 66, 66);
+       }
+       #nav{
+        display:flex;
+        justify-content: space-around;
+       }
+       #nav div{
+        display:flex;
+        
+       }
+       .nab{
+        margin-left: 20px;
+       }
+       .hove:hover{
+        background-color:gray
+       }
+    </style>
+</head>
+<body>
+    <div id="nav">
+        <div>
+            <div>
+                <img src=""/>
+            </div>
+            <div class="nab"><h3>Expedia</h3></div>
+            
+          <div class="nab">  <h4>More Travel</h4></div>
+        </div>
+        <div>
+            <div class="nab"> <h4>English</h4></div>
+           
+           <div class="nab"> <h4>Support</h4></div>
+            <div class="nab"><h4>Trips</h4></div>
+            <div class="nab"><h4>Sign In</h4></div>
+        </div>
+    </div>
+
+    <div id = "customer-service">
+        <div id="cs2">
+            <p>Customer Service</p>
+           
+        </div>
+        <div id ="search">
+            <input placeholder="search"/>
+        </div>
+    </div>
+
+    <div id="after-cs">
+        <div id ="empty">
+
+        </div>
+        <div id = "tohelp">
+            <div>
+                <h2>We are here to help </h2>
+            </div>
+            <div>
+                <h3><b>Browse Help</b></h3>
+            </div>
+           
+            <div id ="nem">
+                <div id="icon">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNG1JftffJ0vupj9omedRQBwI2efpy_stsDA&usqp=CAU"/>
+                    <h4>   Customer serivce</h4>
+                </div>
+                <div id="andr">
+                    <p class="hove">  >  Change & Cancel</p>
+                    <p class="hove">  >  Payment & receipt</p>
+                    <p class="hove">  >  Refunds</p>
+                    <p class="hove">  >  Travel Documents</p>
+                    <p class="hove">  >  Account Security</p>
+                    <p class="hove">  >  Travel Alerts</p>
+                </div>
+                
+                <h4>Expedia Rewards</h4>
+            </div>
+        </div>
+        <div id="populartopics">
+            <div id="seach">
+                <input placeholder="contact"/>
+            </div>
+            <h2>Popular topics</h2>
+            <div>
+                <div class="inspop">
+                    <p class="hove"> <b>>  How we order your search results</b></p>
+                  
+                </div>
+                <div class="inspop">
+                   <p class="hove"> <b>> Book a flight using an airline credit</b></p>
+                </div>
+                <div class="inspop">
+                   <p class="hove"><b> > Privat host listings</b></p>
+                </div>
+                <div class="inspop">
+                  <p class="hove"> <b> > Government travel alerts and warnings</b></p>
+                </div>
+                <div class="inspop">
+                   <p class="hove"><b> > Online flight check-in</b></p>
+                </div>
+                <div class="inspop">
+                   <p class="hove"> <b>> Earn Expedia Rewards tier status</b></p>
+                </div>
+                <div class="inspop">
+                    <p class="hove"><b>> Conditions of carriage</b></p>
+                </div>
+                <div class="inspop">
+                 <p class="hove"><b>> Changes to Expedia Rewards</b></p>
+                </div>
+
+            </div>
+
+        </div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+    
+    <div>
+        <div id="exp"><button><b>Add your property to Expedia</b></button></div>
+        <div id ="apptop">
+            <div id="left">
+              
+                <h1>Download Expedia App</h1>
+                <input type="number" placeholder="Enter Your Phone Number"/>
+                <button><b>Send</b></button>
+                <div id="app" >
+                
+                    <div>
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWRXF0ueSGzQrMjaBuBgV8wped08JyA--IqA&usqp=CAU"/>
+                        <h4>
+                            Free cancellation on select hotels
+                        </h4>
+                    </div>
+                    <div>
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ63B_ukSuaAqFj04JtMrjxyXKPkOEuGVG3WA&usqp=CAU"/>
+                        <h4>
+                            Make changes to your booking</h4>
+                    </div>
+                </div>
+            </div>
+            <div id="barcode">
+                <img src="https://a.travel-assets.com/mad-service/footer-legal-qr-codes/27.jpg"/>
+            </div>
+           
+            
+        </div>
+    </div>
+   <div id="last">
+            <div id="trip-planning">
+                <div class="tp">
+                    <div>
+                        <p><b>International Destinations</b></p>
+                    </div>
+                    <div>
+                        <p>Check out Expedia's featured travel destinations, which gives you a full selection of hotels to suit any budget in the most popular destinations in India and the world at large. Find the hotel that is right for you using our star ratings, guest reviews, location maps & great discount rates.
+
+                            Singapore Hotels Hong Kong Hotels Kuala Lumpur Hotels Bangkok Hotels Pattaya Hotels Paris Hotels Bali Hotels Maldives Hotels Dubai Hotels New York Hotels London Hotels Mauritius Hotels Melbourne Hotels Sydney Hotels Las Vegas Hotels Koh Samui Hotels Krabi Hotels</p>
+                    </div>
+                </div>
+                <div class="tp">
+                    <div>
+                       <p> <b>Domestic Destinations</b></p>
+                    </div>
+                    <div>
+                        <p>Travelling within India? Check out our most popular domestic travel destinations with great selection of hotel partners, hotel reviews and our best travel deals!
+
+                            Goa Hotels Ooty Hotels Mahabaleshwar Hotels Manali Hotels Shimla Hotels Mysore Hotels Mount Abu Hotels Lonavala Hotels Chennai Hotels New Delhi Hotels Bangalore Hotels Kolkata Hotels Jaipur Hotels Mumbai Hotels Agra Hotels Hyderabad Hotels Udaipur Hotels Pune Hotels</p>
+                    </div>
+                </div>
+                <div >
+                    <p>All prices and offers are subject to change with availability. Hotel prices are per night based on twin share, and excludes taxes and fees. Flight prices are per person and includes taxes and fees unless otherwise stated. Flight + hotel prices are per person, based on twin share, and include taxes and fees unless otherwise stated. Offers may be discontinued without notice.
+
+                        ⁺ Sample prices are “from” prices and based on rates for travel within the next 45 days. Sample prices are subject to conditions above and limited availability. Prices vary by date, length of stay, hotel selected, hotel room category, departure city, and availability. Additional restrictions including minimum stay, blackout dates, available room types and advance purchase may apply.
+                        
+                        *Savings based on all package bookings with Flight + Hotel on Expedia.co.in from January 2018 to December 2018, as compared to the price of the same components booked separately. Savings will vary based on origin/destination, length of trip, stay dates and selected travel supplier(s). Savings not available on all packages.</p>
+                </div>
+                
+        </div>
+        <div id="explore-more">
+            <div class="ep">
+                <div>
+                    <b>Travel Options</b>
+                </div>
+                <div class="ep1">
+                    <p>
+                            
+                        Travel Blog Hotels in Goa Hotels in Ooty Hotels in Mahabaleshwar Hotels in Jaipur Hotels in Mumbai Hotels in Bangalore Hotels in Delhi Hotels in Chennai Hotels in Pune Hotels in Hyderabad Hotels in Agra Hotels in Kolkata Hotels in London Hotels in Dubai Hotels in Bangkok Hotels in Pattaya Hotels in Phuket Hotels in Singapore Hotels in Bali Accommodation
+                    </p>
+                </div>
+            </div>
+            <div class="ep">
+                <div>
+                    <b>Expedia</b>
+                </div>
+                <div class="ep1">
+                    <p>
+                        
+                        About Us Privacy Policy Terms of Use Support
+                    </p>
+                </div>
+            </div>
+            <div class="ep">
+                <div>
+                    <b>Partner Services</b>
+                </div>
+                <div class="ep1">
+                    <p>
+                        
+                        Expedia Partner Central Add a property Expedia Partner Solutions API Add an Activity Travel Agencies Become an Affiliate
+                    </p>
+                </div>
+            </div>
+
+        </div>
+   </div>
+</body>
+</html>

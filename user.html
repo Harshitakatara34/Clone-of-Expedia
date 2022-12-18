@@ -4,34 +4,51 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    
+    <title>create an account</title>
+    <link rel="stylesheet" href="./user.css">
+    <link rel="stylesheet" href="login.css">
+</head>
 <body>
-    <form id="loginpage">
-        <div id="top">
-        
-            <h1>Sign In/Sign Up</h1>
-            <!-- <h2>Enter Mobile Number</h2> -->
-            <input id="number"type="Number"placeholder="Enter mobile number">
-            <br>
-            <input id="pass" type="password"placeholder="enter password">
-            <br>
-            <p>By creating account , I agree to the licious <span>Terms of Use,Privacy Policy,and licious Reward Terms and Conditions</span></p>
-            <button>Create Account</button>
-            <br>
-           
-       
+    <!-- navbar -->
+    <div id="signup_head">
+        <div><img id="signup_head_left_arrow" src="https://cdn.pixabay.com/photo/2016/09/05/10/50/app-1646213_960_720.png" alt=""></div>
+        <div id="logo_div"> <a href="../index.html"><img id="signup_head_logo" src="https://www.expedia.co.in/_dms/interstitial/logo.svg?locale=en_GB&siteid=27" alt=""></a></div>
     </div>
-    
-<div id="last">
-    <span>If you already have account</span>
-    <a id="link"href="login.html">Login</a>
-</div>
-     
-         
   
-    </form>
-<script src="USER.js"></script>
-<link rel="stylesheet" href="user.css"/>
+    <!-- create an account section-->
+
+    <div id="sigup_heading"><h1>Create an account</h1></div>
+
+
+    <!-- main-div-sigup form -->
+
+    <div id="sigup_main_box">
+        <input type="email" name=""  placeholder="Email address" class="sigup_input" id="user_email"/><br>
+        <input type="text" name="" placeholder="Firstname" class="sigup_input"  id="user_name"><br>
+        <input type="" name="" placeholder="Surname" class="sigup_input"  id="user_surname"><br>
+        <input type="password" name="" placeholder="Password" class="sigup_input"  id="user_password"><img id="eye_icon" src="https://cdn.pixabay.com/photo/2016/12/18/11/04/eye-1915455_960_720.png" alt=""><br>
+        <input type="checkbox" name="" id="sigup_checkbox1"   class="sigup_checkbox"><span class="sigup_span">This is a public or shared device</span><br>
+        <span id="display"></span><br>
+
+      <div id="sigup_p"> <p> <input type="checkbox" name="" id="sigup_checkbox2"    class="sigup_checkbox"></p> <p class="sigup_span">I'd like to receive travel deals, special offers and other information from Expedia via email.</p></div>
+
+<p id="sigup_term">By creating an account, I agree to the Expedia <span class="sigup_term_condition">Terms and Conditions, Privacy Statement </span>  and <span class="sigup_term_condition"> Expedia Rewards Terms and Conditions.</span></p>
+
+
+<div id="sigup_continue" class="sigup_continue"><p>Continue</p></div>
+<p id="sigup_account">Already have an account?<a href="login.html">Sign in</a></p>
+<p id="sigup_page">or continue with</p>
+<div id="sigup_company"><p><img class="sigup_company" id="apple" src="https://a.travel-assets.com/egds/marks/apple.svg" alt=""></p>
+    <p><img class="sigup_company" id="facbook"  src="https://a.travel-assets.com/egds/marks/facebook.svg" alt="">
+    <p><img class="sigup_company" id="google" src="https://a.travel-assets.com/egds/marks/google.svg" alt=""></p></p>
+
+</div>
+
+ 
+        
+
+    </div>
 </body>
 </html>
+
+<script src="./USER.js"></script>

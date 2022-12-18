@@ -4,27 +4,39 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
- 
+    <title>Sigin in</title>
+    <link rel="stylesheet" href="./user.css">
+    <link rel="stylesheet" href="login.css">
+</head>
 <body>
-    <form id="login">
-        <div id="top">
-        
-            <h1>Login here</h1>
-            <!-- <h2>Enter Mobile Number</h2> -->
-            <input id="number"type="Number"placeholder="Enter mobile number">
-            <br>
-            <input id="pass" type="password"placeholder="enter password">
-            <br>
-            <!-- <p>By creating account , I agree to the licious <span>Terms of Use,Privacy Policy,and licious Reward Terms and Conditions</span></p> -->
-            <button>LOGIN</button>
-            <br>
-           
-       
+    <!-- navbar -->
+     <div id="signup_head">
+        <div><img id="signup_head_left_arrow" src="https://cdn.pixabay.com/photo/2016/09/05/10/50/app-1646213_960_720.png" alt=""></div>
+        <div id="logo_div"> <a href="../index.html"><img id="signup_head_logo" src="https://www.expedia.co.in/_dms/interstitial/logo.svg?locale=en_GB&siteid=27" alt=""></a></div>
     </div>
-    
-    </form>
- <script src="login.js"></script>
-<link rel="stylesheet"href="login.css"/>
+
+    <!-- sign in -->
+    <div id="sigup_heading" class="sigin_heading"><h1>Sign in</h1></div>
+
+  <!-- main-box-sign in -->
+  <div id="sigin_main_box">
+    <input type="email" name=""  placeholder="Email address" class="sigup_input" id="user_email"/><br>
+    <input type="password" name=""  placeholder="Password" class="sigup_input"  id="user_password"><img id="eye_icon" src="https://cdn.pixabay.com/photo/2016/12/18/11/04/eye-1915455_960_720.png" alt=""><br>
+    <input type="checkbox" name="" id="sigup_checkbox1"   class="sigup_checkbox"><span class="sigup_span">This is a public or shared device</span><br>
+    <span id="below"></span><br>
+    <p id="login_term">By signing in, I agree to the Expedia<span class="sigup_term_condition">Terms and Conditions, Privacy Statement </span>  and <span class="sigup_term_condition"> Expedia Rewards Terms and Conditions.</span></p>
+   
+    <div id="sign_in"><p class="sign_in">Sign in </p> </div>
+    <div id="forget_password">Forget Password?</div>
+    <div id="create_one">Don't have an account? <span id="create">Create one</span> </div>
+
+<div id="continue_logo">or continue with</div>
+<div id="sigup_company" class="logo_login"><p><a href="www.apple.com"><img class="sigup_company" src="https://a.travel-assets.com/egds/marks/apple.svg" alt=""></a></p>
+    <p><a href="www.facebook.com"><img class="sigup_company"  src="https://a.travel-assets.com/egds/marks/facebook.svg" alt=""></a>
+    <p><a href="www.google.com"><img class="sigup_company"  src="https://a.travel-assets.com/egds/marks/google.svg" alt=""></a></p></p>
+
+</div>
+  </div>
 </body>
 </html>
+<script src="./login.js"></script>

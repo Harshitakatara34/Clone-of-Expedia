@@ -151,13 +151,70 @@
         h5{
             font-size:20px;
         }
-      
+
+        #search-part{
+            margin-left: 150px;
+            margin-right:150px;
+            border: 1px solid grey;
+            margin-top: 50px;
+            box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+        }
+        #top-div{
+            display:flex;
+            justify-content: space-evenly;
+        }
+        .check input{
+            height:30px;
+            
+        }
+        .check{
+            margin-top: 20px;
+            
+        }
+        #below-div button{
+            margin-top: 20px;
+            height:35px;
+            width:100px;
+            background-color: rgb(55, 55, 250);
+            color:white;
+            margin-left: 80px;
+        }
+        #place-select{
+            height:30px;
+            width:150px;
+        }
     </style>
 </head>
 <body>
+    
     <div id="top-img">
         <h1>India Trip</h1>
         <h3>Book a Hotel + Flight or Car together to unlock savings</h3>
+    </div>
+
+    <div id="search-part">
+        <div><h2><u>Stays</u></h2></div>
+        <div id="top-div">
+            <div  id="place" class="check"><select name="places" id="place-select">
+                <option value="">Going To...</option>
+                <option value="NewDelhi">New Delhi</option>
+                <option value="Mumbai">Mumbai</option>
+                <option value="Lucknow">Lucknow</option>
+                <option value="Goa">Goa</option>
+                
+            </select></div>
+            <div class="check">
+                <label>Check In</label>
+                <input type="date" /></div>
+            <div class="check">
+                <label>Check Out</label>
+                <input type="date"/></div>
+            <div class="check"><input placeholder="Travellers 1 room 2 travellers"/></div>
+        </div>
+      
+        <div id="below-div">
+            <button>Search</button>
+        </div>
     </div>
      
     <div id="td"><h2>Top Destination In India</h2></div>
@@ -362,4 +419,21 @@
     
   
 </body>
+
+   <script>
+      let search = document.getElementById("below-div")
+     
+    
+     search.addEventListener("click",myfun)
+     function myfun(){
+        let goingplace=document.getElementById("place-select").value
+        
+        
+        if(goingplace==="NewDelhi"){
+            
+            location.replace("NewDelhi.html")
+        }
+     }
+
+   </script>
 </html>

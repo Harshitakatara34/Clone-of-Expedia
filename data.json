@@ -1,0 +1,202 @@
+[
+    {
+      "link": "https://images.trvl-media.com/hotels/79000000/78940000/78934200/78934175/ea231131.jpg?impolicy=resizecrop&rw=455&ra=fit",
+      "count": 1,
+      "height": 683,
+      "width": 455,
+      "title": "Room",
+      "titles": [
+        "Room"
+      ]
+    },
+    {
+      "link": "https://images.trvl-media.com/hotels/1000000/30000/20400/20313/5405e69b.jpg?impolicy=resizecrop&rw=455&ra=fit",
+      "count": 1,
+      "height": 368,
+      "width": 455,
+      "title": "Outdoor pool",
+      "titles": [
+        "Outdoor pool"
+      ]
+    },
+    {
+      "link": "https://images.trvl-media.com/hotels/4000000/3860000/3851700/3851663/88c9a427.jpg?impolicy=resizecrop&rw=455&ra=fit",
+      "count": 1,
+      "height": 275,
+      "width": 455,
+      "title": "Pool",
+      "titles": [
+        "Pool"
+      ]
+    },
+    {
+      "link": "https://images.trvl-media.com/hotels/1000000/30000/20400/20313/fbaa18f3.jpg?impolicy=resizecrop&rw=455&ra=fit",
+      "count": 1,
+      "height": 198,
+      "width": 252,
+      "title": "Exterior",
+      "titles": [
+        "Exterior"
+      ]
+    },
+    {
+      "link": "https://images.trvl-media.com/hotels/1000000/30000/20400/20313/8abc39d1.jpg?impolicy=resizecrop&rw=455&ra=fit",
+      "count": 1,
+      "height": 198,
+      "width": 252,
+      "title": "Primary image",
+      "titles": [
+        "Primary image"
+      ]
+    },
+    {
+      "link": "https://images.trvl-media.com/hotels/1000000/30000/20400/20313/ddc7c8ff.jpg?impolicy=resizecrop&rw=455&ra=fit",
+      "count": 1,
+      "height": 198,
+      "width": 252,
+      "title": "Bathroom",
+      "titles": [
+        "Bathroom"
+      ]
+    },
+    {
+      "link": "https://images.trvl-media.com/hotels/79000000/78940000/78934200/78934175/4fc0b804.jpg?impolicy=resizecrop&rw=455&ra=fit",
+      "count": 1,
+      "height": 188,
+      "width": 252,
+      "title": "Exterior",
+      "titles": [
+        "Exterior"
+      ]
+    },
+    {
+      "link": "https://images.trvl-media.com/hotels/79000000/78940000/78934200/78934175/c3c5ac8f.jpg?impolicy=resizecrop&rw=455&ra=fit",
+      "count": 1,
+      "height": 188,
+      "width": 252,
+      "title": "Primary image",
+      "titles": [
+        "Primary image"
+      ]
+    },
+    {
+      "link": "https://images.trvl-media.com/hotels/79000000/78940000/78934200/78934175/953d58ca.jpg?impolicy=resizecrop&rw=455&ra=fit",
+      "count": 1,
+      "height": 188,
+      "width": 252,
+      "title": "Reception",
+      "titles": [
+        "Reception"
+      ]
+    },
+    {
+      "link": "https://images.trvl-media.com/hotels/4000000/3860000/3851700/3851663/c1013ae8.jpg?impolicy=resizecrop&rw=455&ra=fit",
+      "count": 1,
+      "height": 176,
+      "width": 252,
+      "title": "Terrace/patio",
+      "titles": [
+        "Terrace/patio"
+      ]
+    },
+    {
+      "link": "https://images.trvl-media.com/hotels/4000000/3860000/3851700/3851663/aaba7f62.jpg?impolicy=resizecrop&rw=455&ra=fit",
+      "count": 1,
+      "height": 176,
+      "width": 252,
+      "title": "Primary image",
+      "titles": [
+        "Primary image"
+      ]
+    },
+    {
+      "link": "https://images.trvl-media.com/hotels/4000000/3860000/3851700/3851663/bada04cf.jpg?impolicy=resizecrop&rw=455&ra=fit",
+      "count": 1,
+      "height": 176,
+      "width": 252,
+      "title": "Room",
+      "titles": [
+        "Room"
+      ]
+    },
+    {
+      "link": "https://maps.googleapis.com/maps/api/staticmap?channel=expedia-HotelInformation&maptype=roadmap&format=jpg&zoom=&size=600x400&markers=icon:https://a.travel-assets.com/travel-assets-manager/eg-maps/property.png%7C28.600866,77.186237%7C28.644524,77.169979%7C28.568521,77.185255%7C28.550052,77.123218%7C28.620985,77.218158%7C28.701746,77.162538%7C28.619287,77.217563%7C28.661714,77.303018%7C28.59629,77.23975%7C28.596333,77.170013&key=AIzaSyCYjQus5kCufOpSj932jFoR_AJiL9yiwOw&signature=-uhMIQPJ1jPgNgMNeNCbCVAoFLw=",
+      "count": 1,
+      "height": 101,
+      "width": 236,
+      "title": "",
+      "titles": [
+        ""
+      ]
+    },
+    {
+      "link": "https://www.expedia.co.in/_dms/interstitial/logo.svg?locale=en_GB&siteid=27",
+      "count": 1,
+      "height": 69,
+      "width": 310,
+      "title": "expedia",
+      "titles": [
+        "expedia"
+      ]
+    },
+    {
+      "link": "https://images.trvl-media.com/media/content/expind/images/sg/secure.png",
+      "count": 1,
+      "height": 74,
+      "width": 194,
+      "title": "Secured Site - Verizon Cybertrust Security",
+      "titles": [
+        "Secured Site - Verizon Cybertrust Security"
+      ]
+    },
+    {
+      "link": "https://a.travel-assets.com/pricing-claim/sparkle_white.svg",
+      "count": 1,
+      "height": 74,
+      "width": 122,
+      "title": "Member discount illustration",
+      "titles": [
+        "Member discount illustration"
+      ]
+    },
+    {
+      "link": "https://www.expedia.co.in/_dms/header/logo.svg?locale=en_GB&siteid=27&2",
+      "count": 1,
+      "height": 28,
+      "width": 126,
+      "title": "expedia logo",
+      "titles": [
+        "expedia logo"
+      ]
+    },
+    {
+      "link": "https://a.travel-assets.com/globalcontrols-service/content/f285fb631b0a976202ef57611c7050e9ef5ca51a/images/EG_Wordmark_blue_RGB.svg",
+      "count": 1,
+      "height": 22,
+      "width": 150,
+      "title": "Expedia Group Logo",
+      "titles": [
+        "Expedia Group Logo"
+      ]
+    },
+    {
+      "link": "https://a.travel-assets.com/pricing-claim/sparkle_dark.svg",
+      "count": 1,
+      "height": 44,
+      "width": 72,
+      "title": "Sparkle banner dark",
+      "titles": [
+        "Sparkle banner dark"
+      ]
+    },
+    {
+      "link": "https://bat.bing.com/action/0?ti=56343525&Ver=2&mid=3006d31b-0cc8-4c37-9b74-4f329a451648&sid=ae24d8d07e0c11ed80dcdd59ad864afd&vid=133f48f0788711eda0452fbeb514192b&vids=0&msclkid=N&uach=pv%3D15.0.0&pi=918639831&lg=en-US&sw=1536&sh=864&sc=24&tl=New%20Delhi%20Hotel%20Search%20Results&p=https%3A%2F%2Fwww.expedia.co.in%2FHotel-Search%3Fadults%3D2%26d1%3D2022-12-31%26d2%3D2023-01-01%26destination%3DNew%2520Delhi%252C%2520National%2520Capital%2520Territory%2520of%2520Delhi%252C%2520India%26endDate%3D2023-01-01%26latLong%3D28.613939%252C77.209023%26regionId%3D177865%26rooms%3D1%26semdtl%3D%26sort%3DRECOMMENDED%26startDate%3D2022-12-31%26theme%3D%26useRewards%3Dfalse%26userIntent%3D&r=https%3A%2F%2Fwww.expedia.co.in%2F&lt=6494&evt=pageLoad&sv=1&rn=180835",
+      "count": 1,
+      "height": "",
+      "width": "",
+      "title": "",
+      "titles": [
+        ""
+      ]
+    }
+  ]

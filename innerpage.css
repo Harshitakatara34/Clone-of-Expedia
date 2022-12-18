@@ -1,0 +1,126 @@
+body{
+    background-color: #F8F5F4;
+}
+
+#cont{
+    margin-top: -250px;
+    width:80%;
+    /* border:1px solid black; */
+    margin-left: 200px;
+    display: grid;
+    gap: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#sub{
+    /* border: 1px solid red; */
+    height:220px;
+    display: flex;
+    background-color: #FFFFFF;
+}
+#sub>img{
+    height: 220px;
+    width:280px;
+}
+#s{
+    /* border: 1px solid yellow; */
+    display: flex;
+    width: 95%;
+    margin: auto;
+}
+
+#pr{
+    width:20%;
+    /* border: 1px solid blue; */
+    /* align-items: flex-end; */
+}
+#hr{
+    width: 80%;
+}
+#dec{
+    color: rgb(140, 128, 128);
+    margin: auto;
+    /* margin-top: 40px; */
+}
+#decc{
+    color: #0D7066;
+}
+#nic{
+    margin-left: 10px;
+    /* border:1px solid green; */
+    /* background-color: aqua; */
+ }
+ #sor{
+    /* border:1px solid red; */
+    width: 180px;
+    /* margin-left: 10px; */
+    /* text-align: center; */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+ }
+ #sor>button{
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 3px solid black;
+    color: grey;
+    width:190px
+ }
+#sor>h3{
+    text-decoration: underline;
+}
+ #sor>button:hover{
+    /* background-color: lightblue ; */
+    border: 2px solid black;
+    width: 190px;
+ }
+
+ #sorr{
+    /* border:1px solid red; */
+    width: 180px;
+    /* margin-left: 10px; */
+    /* text-align: center; */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+ }
+ #sorr>button{
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 3px solid black;
+    color: grey;
+    width:190px
+ }
+#sorr>h3{
+    text-decoration: underline;
+}
+ #sorr>button:hover{
+    /* background-color: lightblue ; */
+    border: 2px solid black;
+    width: 190px;
+ }
+
+ #ss{
+    border:1px solid red;
+    margin-top: 30px;
+    margin-left: 200px;
+    width: 350px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ }
+ #ss>input{
+    width: 90%;
+    height: 30px;
+    border: 2px solid black;
+ }
+
+ #sss{
+    border:1px solid red;
+    margin-top: 30px;
+    margin-left: 600px;
+    width: 350px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ }
+ #sss>input{
+    width: 90%;
+    height: 30px;
+    border: 2px solid black;
+ }

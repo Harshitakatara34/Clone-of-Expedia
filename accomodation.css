@@ -1,0 +1,320 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color:rgb(242, 239, 242)
+    /* background-color: aqua; */
+}
+
+#container{
+    width: 100%;
+    height: 80px;
+    margin: auto;
+    background-color: white;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+#container>.nav-bar{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    /* border: 1px solid red; */
+    justify-content: space-between;
+}
+
+#container>.nav-bar>.nav-bar-left{
+    width: 30%;
+    height: 80px;
+    display: flex;
+    /* border: 1px solid blue; */
+}
+
+#container>.nav-bar>.nav-bar-left>div{
+    display: flex;
+    /* border: 1px solid green; */
+    width: 70%;
+    height: auto;
+    margin-left: 150px;
+    justify-content: space-between;
+}
+
+#container>.nav-bar>.nav-bar-left>div>div:nth-child(1)>img{
+    width: 70%;
+    margin-top: 10px;
+    margin-left: 40px;
+    cursor: pointer;
+    /* border: 1px solid red; */
+}
+
+#container>.nav-bar>.nav-bar-left>div>div:nth-child(2){
+    /* border: 1px solid red; */
+    margin-right: 20px;
+    margin-top: 20px;
+    width: 120px;
+}
+
+#container>.nav-bar>.nav-bar-left>div>div:nth-child(2)>select{
+    width: 120px;
+    font-weight: 600;
+    font-size: 14px;
+    color: #343B53;
+    border: none;
+    cursor: pointer;
+}
+
+
+
+/* ---------Nav-bar-right----------- */
+
+
+#container>.nav-bar>.nav-bar-right{
+    width: 50%;
+    height: 80px;
+    /* border: 1px solid blue; */
+}
+
+#container>.nav-bar>.nav-bar-right>div{
+    display: flex;
+    width: 100%;
+    height: 70px;
+    margin: auto;
+    /* border: 1px solid red; */
+}
+
+#container>.nav-bar>.nav-bar-right>div>div{
+    width: 90%;
+    /* border: 1px solid blue; */
+    margin-top: 25px;
+    /* padding: 0px 40px; */
+}
+
+#container>.nav-bar>.nav-bar-right>div>div>a{
+    padding-left: 40px;
+    font-size: 17px;
+    font-weight: 550;
+    text-decoration: none;
+    color: #343B53;
+}
+#container>.nav-bar>.nav-bar-right>div>div>a:hover{
+    color:rgb(54,150,234);
+}
+#container>.nav-bar>.nav-bar-right>div>div>i:hover{
+    color:rgb(54,150,234);
+}
+#container>.nav-bar>.nav-bar-right>div>div>a:nth-child(1){
+    padding-left: 200px;
+}
+
+#container>.nav-bar>.nav-bar-right>div>div>i{
+    padding-left: 40px;
+    color: #343B53;
+    height: 30px;
+    cursor: pointer;
+    margin-top: 12px;
+    /* width: 20px; */
+    /* border: 1px solid red; */
+} 
+
+
+#container>.nav-bar>.nav-bar-right>div>div>i:nth-child(1){
+    padding-left: 1px;
+}
+#container>.body-top{
+    width: 90%;
+    height: 550px;
+    /* border: 1px solid red; */
+    margin:auto;
+}
+/* .body-top{ */
+  
+  
+/* } */
+
+
+.body-top>h1{
+    color:white;
+    font-size:70px;
+    padding-top:190px;
+    padding-left:10px;
+}
+
+
+.bottom-body-nav>input{
+    height: 55px;
+    padding: 0px 30px;
+    margin: 0px 10px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.bottom-body-nav>input:nth-child(1){
+    width: 300px;
+}
+.bottom-body-nav>input:nth-child(2){
+    width: 100px;
+}
+.bottom-body-nav>input:nth-child(3){
+    width: 100px;
+}
+.bottom-body-nav>input:nth-child(4){
+    width: 100px;
+}
+
+.bottom-body-nav>button{
+    width: 190px;
+    height: 55px;
+    font-size: 18px;
+    font-weight: 500;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 9px;
+    background-color: #2950B8;
+}
+#bottom_part>hr{
+    color:grey;
+}
+/* #footer1{
+   padding-top: 80px;
+    border:1px solid orange;
+    height:300px;
+    width:80%;
+    display:flex;
+  margin-top:50px;
+  margin-left:10%;
+    background-color: white;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+} */
+.body-top{
+    border:2px solid black;
+    width:80%;
+    margin:auto;
+    background:rgba(0, 0, 0, 0.496) url(https://a.travel-assets.com/flex/flexmanager/images/2018/05/24/cabins-tvly1348x424.jpg?impolicy=fcrop&w=360&h=224&q=medium);
+    height:600px;
+  
+    /* border:2px solid magenta; */
+    background-size:100% 600px; 
+     background-repeat: no-repeat;
+     background-blend-mode: darken;
+    
+     margin-left:10%;
+}
+/* }
+#bottom_part{
+    height:80px;
+    width:85%;
+    background-color: white;
+    margin-top:20px;
+    border:2px solid olive;
+    margin-left:7.5%;
+} */
+/* #bottom_part>h1{
+    padding-top:5px;
+
+}
+#bottom_part>hr{
+    margin-top:9px;
+} */
+#bottom_part_data{
+    display:flex;
+    justify-content: space-between;
+    width:85%;
+    /* border:2px solid purple; */
+    height:250px;
+    margin:auto;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    background-color: white;
+}
+#bottom_part>b{
+ color:rgb(52,59,83);
+ font-size:35px;
+ padding-top:20px;
+ 
+}
+#bottom_part_data>div>div{
+    font-size:18px;
+}
+
+#bottom_part_data>div>div>p{
+  
+    color:rgb(54,120,226);
+    padding-left:10px;
+    padding-right:20px;
+   
+}
+#bottom_part_data>div>div p:hover{
+    text-decoration: underline;
+
+}
+
+
+
+
+#bottom_part{ 
+    /* border:2px solid orange; */
+    height:50px;
+    margin-top:20px;
+     border:2px solid white;
+    width: 85%;
+    margin-left:7.5%;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+#bottom_part>b{
+    font-size:35px;
+    color:rgb(52,59,83);
+}
+#bottom_part_data>div{
+    /* border:2px solid purple; */
+    height:100%;
+    width:83%;
+    display:flex;
+    justify-content: space-between;
+    padding-left:30px;
+    padding-top:20px;
+   
+}
+#last-part{
+    height:400px;
+    width:100%;
+    /* border:2px solid black; */
+    padding-left:98px;
+    padding-top:50px;
+}
+#last-part>h1{
+    color:rgb(40,45,112);
+}
+#last-part-data{
+    display:flex;
+    width:70%;
+    /* border:2px solid red; */
+    /* padding-left:30px; */
+    height:80%;
+    justify-content: space-between;
+    
+}
+#last-part-data p{
+    color:rgb(54,120,226);
+}
+#last-part-data p:hover{
+    text-decoration: underline;
+}
+
+#last-part-data>div{
+    font-size:15px;
+    padding-top:10px;
+}
+.last-para>p{
+    padding-left:98px;
+    color:grey;
+    height:200px;
+    margin-top:20px;
+
+}
+    
+h5{
+    font-size:20px;
+}

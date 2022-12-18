@@ -1,0 +1,589 @@
+CSS-INDEX
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+#container{
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+
+#container>.nav-bar{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    /* border: 1px solid red; */
+    justify-content: space-between;
+}
+
+#container>.nav-bar>.nav-bar-left{
+    width: 30%;
+    height: 80px;
+    display: flex;
+    /* border: 1px solid blue; */
+}
+
+#container>.nav-bar>.nav-bar-left>div{
+    display: flex;
+    /* border: 1px solid green; */
+    width: 70%;
+    height: auto;
+    margin-left: 150px;
+    justify-content: space-between;
+}
+
+#container>.nav-bar>.nav-bar-left>div>div:nth-child(1)>img{
+    width: 70%;
+    margin-top: 10px;
+    margin-left: 40px;
+    cursor: pointer;
+    /* border: 1px solid red; */
+}
+
+#container>.nav-bar>.nav-bar-left>div>div:nth-child(2){
+    /* border: 1px solid red; */
+    margin-right: 20px;
+    margin-top: 20px;
+    width: 120px;
+}
+
+#container>.nav-bar>.nav-bar-left>div>div:nth-child(2)>select{
+    width: 120px;
+    font-weight: 600;
+    font-size: 14px;
+    color: #343B53;
+    border: none;
+    cursor: pointer;
+}
+
+
+
+/* ---------Nav-bar-right----------- */
+
+
+#container>.nav-bar>.nav-bar-right{
+    width: 36%;
+    height: 80px;
+    /* border: 1px solid blue; */
+}
+
+#container>.nav-bar>.nav-bar-right>div{
+    display: flex;
+    width: 100%;
+    height: 70px;
+    margin: auto;
+    /* border: 1px solid red; */
+}
+
+#container>.nav-bar>.nav-bar-right>div>div{
+    width:600px;
+    /* border: 1px solid blue; */
+    margin-top: 25px;
+    /* padding: 0px 40px; */
+
+}
+.nav-bar-right>div>div>a:hover{
+    color:blue;
+}
+
+#container>.nav-bar>.nav-bar-right>div>div>a{
+    padding-left: 40px;
+    font-size: 17px;
+    font-weight: 550;
+    text-decoration: none;
+    color: #343B53;
+}
+#container>.nav-bar>.nav-bar-right>div>div>a:nth-child(1){
+    padding-left: 200px;
+}
+
+#container>.nav-bar>.nav-bar-right>div>div>i{
+    padding-left: 40px;
+    color: #343B53;
+    height: 30px;
+    cursor: pointer;
+    margin-top: 12px;
+    /* width: 20px; */
+    /* border: 1px solid red; */
+} 
+
+
+#container>.nav-bar>.nav-bar-right>div>div>i:nth-child(1){
+    padding-left: 1px;
+}
+
+
+/* ----------------------------------------------------------------- */
+
+/* -----------BODY TOP----------- */
+
+#container>.body-top{
+    width: 100%;
+    height: 320px;
+    /* border: 1px solid red; */
+}
+
+#container>.body-top>.body-top-content{
+    width: 80%;
+    height: 270px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px, rgb(209, 213, 219) 0px 0px 0px 1px inset;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 70px;
+}
+
+#container>.body-top>.body-top-content>hr{
+    width: 90%;
+    margin: auto;
+}
+
+#container>.body-top>.body-top-content>.top-body-nav{
+    width: 90%;
+    height: 50px;
+    margin: auto;
+    display: flex;
+    /* border: 1px solid red; */
+    align-items: center;
+    justify-content: center;
+}
+
+#container>.body-top>.body-top-content>.top-body-nav>a{
+    margin: 0px 20px;
+    font-size: 18px;
+    text-decoration: none;
+    color: #343B53;
+    font-weight: 550;
+    
+}
+
+#container>.body-top>.body-top-content>.top-body-nav>a:hover{
+    text-decoration: underline blue;
+}
+
+
+/* -------------BOTTOM BODY NAV----------- */
+
+#container>.body-top>.body-top-content>.bottom-body-nav{
+    width: 90%;
+    height: 80px;
+    /* margin: auto; */
+    margin-left: 70px;
+    display: flex;
+}
+
+
+#container>.body-top>.body-top-content>.bottom-body-nav>input{
+    height: 55px;
+    padding: 0px 30px;
+    margin: 0px 10px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+
+#container>.body-top>.body-top-content>.bottom-body-nav>select{
+    width: 550px;
+    height: 60px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+#container>.body-top>.body-top-content>.bottom-body-nav>select>option{
+    height: 50px;
+    font-size: 20px;
+}
+
+#container>.body-top>.body-top-content>.bottom-body-nav>select>option:nth-child(1){
+    font-size: 18px;
+}
+
+
+#container>.body-top>.body-top-content>.bottom-body-nav>input:nth-child(2){
+    width: 100px;
+}
+
+#container>.body-top>.body-top-content>.bottom-body-nav>input:nth-child(3){
+    width: 100px;
+}
+
+#container>.body-top>.body-top-content>.bottom-body-nav>input:nth-child(4){
+    width: 250px;
+}
+
+#container>.body-top>.body-top-content>.check-box{
+    width: 90%;
+    height: 50px;
+    margin: auto;
+    /* border: 1px solid red; */
+}
+
+#container>.body-top>.body-top-content>.check-box>input{
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+
+
+#container>.body-top>.body-top-content>.check-box>label{
+    font-size: 18.5px;
+    font-weight: 500;
+    padding-left: 10px;
+    cursor: pointer;
+}
+
+#container>.body-top>.body-top-content>.check-btn{
+    width: 190px;
+    margin: auto;
+}
+
+#container>.body-top>.body-top-content>.check-btn>button{
+    width: 200px;
+    height: 55px;
+    font-size: 18px;
+    font-weight: 500;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 9px;
+    background-color: #2950B8;
+}
+
+#container>.body-top>.body-top-content>.check-btn>button:hover{
+    background-color: #1b3786;
+}
+
+
+
+/* ---------------------------- BODY BANNER--------------------------- */
+
+#container>.body-banner{
+    width: 100%;
+    margin: auto;
+    height: auto;
+}
+
+#container>.body-banner>.banner-card{
+    width: 80%;
+    height: auto;
+    margin: auto;
+    position: relative;
+    /* border: 1px solid red; */
+}
+
+#container>.body-banner>.banner-card>img{
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    opacity: 1;
+}
+
+#container>.body-banner>.banner-card>.banner-text{
+    position: absolute;
+    top: 25%;
+
+}
+
+#container>.body-banner>.banner-card>.banner-text{
+    margin-left: 40px;
+    width: 35%;
+}
+
+#container>.body-banner>.banner-card>.banner-text>h1{
+    font-size: 50px;
+    line-height: 3.3rem;
+    color: white;
+}
+
+#container>.body-banner>.banner-card>.banner-text>p{
+    margin-top: 15px;
+    font-size: 19px;
+    color: white;
+    font-weight: 500;
+}
+
+#container>.body-banner>.banner-card>.banner-text>button{
+    margin-top: 15px;
+    width: 180px;
+    height: 50px;
+    font-size: 17px;
+    background-color: #2950B8;
+    color: white;
+    border-radius: 7px;
+    border: none;
+    cursor: pointer;
+}
+
+#container>.body-banner>.banner-card>.banner-text>button:hover{
+    background-color: #1b3786;
+}
+
+
+/* --------------------- QR CODE ----------------- */
+
+#container>.body-qr{
+  width: 100%;  
+  height: auto;
+  margin: auto;
+  margin: auto;
+}
+
+#container>.body-qr>.body-qr-content{
+    width: 80%;
+    height: 320px;
+    display: flex;
+    /* border: 1px solid red; */
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 8px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+
+
+#container>.body-qr>.body-qr-content>.qr-content-left{
+    width: 35%;
+    height: 320px;
+    /* border: 1px solid blue; */
+}
+
+#container>.body-qr>.body-qr-content>.qr-content-left>img{
+    width: 100%;
+    height: 320px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+#container>.body-qr>.body-qr-content>.qr-content-mid{
+    width: 45%;
+    height: 320px;
+    margin-left: 30px;
+    /* border: 1px solid blue; */
+}
+
+#container>.body-qr>.body-qr-content>.qr-content-mid>h2{
+    margin-top: 20px;
+    font-size: 35px;
+}
+
+#container>.body-qr>.body-qr-content>.qr-content-mid>p{
+    margin-top: 10px;
+    font-size: 17px;
+    line-height: 22px;
+    color: #343B53;
+}
+
+#container>.body-qr>.body-qr-content>.qr-content-mid>h3{
+    margin-top: 30px;
+    font-size: 22px;
+}
+
+#container>.body-qr>.body-qr-content>.qr-content-mid>div{
+    display: flex;
+    margin-top: 15px;
+}
+
+#container>.body-qr>.body-qr-content>.qr-content-mid>div>input{
+    height: 55px;
+    width: 190px;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 17px;
+    border: 1px solid grey;
+}
+
+#container>.body-qr>.body-qr-content>.qr-content-mid>div>input:nth-child(2){
+    margin-left: 15px;
+}
+
+#container>.body-qr>.body-qr-content>.qr-content-mid>div>button{
+    height: 55px;
+    width: 190px;
+    border-radius: 8px;
+    margin-left: 15px;
+    font-size: 17px;
+    border: none;
+    background-color: #2950B8;
+    cursor: pointer;
+    color: white;
+}
+
+#container>.body-qr>.body-qr-content>.qr-content-mid>div>button:hover{
+    background-color: #1b3786;
+}
+
+
+#container>.body-qr>.body-qr-content>.qr-content-right{
+    text-align: center;
+}
+
+#container>.body-qr>.body-qr-content>.qr-content-right>img{
+    width: 70%;
+    margin-top: 25px; 
+}
+
+
+/* ------------ BOTTOM BANNER--------------- */
+
+#container>.bottom-banner{
+    width: 100%;
+    height: auto;
+}
+
+#container>.bottom-banner>.bottom-banner-content{
+    width: 80%;
+    height: auto;
+    margin: auto;
+    margin-top: 100px;
+    /* border: 1px solid blue; */
+}
+
+#container>.bottom-banner>.bottom-banner-content>a>img{
+    width: 100%;
+    height: 350px;
+    border-radius: 10px;
+}
+
+#container>.bottom-banner>div{
+    width: 20%;
+    height: auto;
+    text-align: center;
+    margin: auto;
+    margin-top: 40px;
+    /* border: 1px solid red; */
+}
+
+#container>.bottom-banner>div>p{
+    font-size: 18px;
+    font-weight: 550;
+}
+
+#container>.bottom-banner>div>.bottom-banner-text{
+    text-decoration: none;
+    color: #2950B8;
+    font-weight: 400;
+}
+
+#container>.bottom-banner>div>.bottom-banner-text:hover{
+    text-decoration: underline;
+}
+
+/* --------------------- FOOTER SECTION--------------- */
+
+#container>.footer{
+    width: 100%;
+    height: auto;
+}
+
+#container>.footer>.footer-content{
+    width: 80%;
+    height: 350px;
+    margin: auto;
+    margin-top: 55px;
+    display: flex;
+    /* border: 1px solid red; */
+}
+
+#container>.footer>.footer-content>div{
+    width: 25%;
+    height: auto;
+    /* border: 1px solid blue; */
+}
+
+
+#container>.footer>.footer-content>div>h4{
+    font-size: 18px;
+}
+
+#container>.footer>.footer-content>div>div{
+    text-decoration: none;
+    margin-top: 10px;
+    /* border: 1px solid red; */
+}
+
+#container>.footer>.footer-content>div>div>a{
+    line-height: 35px;
+    text-decoration: none;
+    color: #2950B8;
+}
+
+#container>.footer>.footer-content>div>div>a:hover{
+    text-decoration: underline;
+}
+
+/* ------------ FOOTER BOTTOm----------- */
+
+#container>.footer-bottom{
+    width: 100%;
+    height: auto;
+}
+
+#container>.footer-bottom>.footer-bottom-content{
+    width: 80%;
+    height: 180px;
+    margin: auto;
+    /* border: 1px solid blue; */
+}
+
+#container>.footer-bottom>.footer-bottom-content>img{
+    margin-top: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

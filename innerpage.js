@@ -729,14 +729,24 @@ imag = [
  }
  
  function search() {
-    let l = document.querySelector("input").value;
+    let l = document.querySelector("#ss input").value;
     let newdata = imag.filter(function (elem) {
         return elem.city.toLowerCase().includes(l.toLowerCase());
     })
     display(newdata);
  }
  
+ function searchh() {
+    let m = document.querySelector("#sss input").value;
+    let newdata1 = imag.filter(function (elem) {
+        return elem.title.toLowerCase().includes(m.toLowerCase());
+    })
+    display(newdata1);
+ }
   
+ document.querySelector("#backk").addEventListener(("click"),()=>{
+    location.replace("index.html");
+ })
  
  ////////////////////////////////////////////////////////////////////////////////////////////
  // 0D7066

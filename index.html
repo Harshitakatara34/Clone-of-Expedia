@@ -92,7 +92,7 @@
                 </div>
 
                 <div class="check-btn">
-                    <button>Search</button>
+                    <button id="sett">Search</button>
                 </div>
             </div>
         </div>
@@ -246,9 +246,14 @@
     </div>
 </body>
 
-<script>
-    
-</script>
+ 
 
     
 </html>
+
+
+<script >
+document.querySelector("#sett").addEventListener("click",()=>{
+  location.replace("innerpage.html")
+})
+</script>

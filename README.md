@@ -3,7 +3,7 @@ Construct Week Project of JS201 - Clone of Expedia
 :computer:Clone Project Name - BackPackers
 Explore our Expedia-inspired e-commerce platform, where you can effortlessly book accommodations at a wide range of hotels and access enticing vacation packages. Plan your dream getaway with ease and embark on unforgettable journeys, all from the comfort of your screen. This was a Collaborative Project from Masai School in Construct Week with a span of 5 days.
 ---
-:computer:Unique Project Name & logo :- BackPackers
+:computer:Unique Project Name  :- BackPackers
 ---
 :star:Deployed Link:-https://golden-sorbet-745819.netlify.app/
 ![img3](https://github.com/Harshitakatara34/Clone-of-Expedia/assets/112870595/380711f1-0090-4232-80fb-67ff9d5f416b)

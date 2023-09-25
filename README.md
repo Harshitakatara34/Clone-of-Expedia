@@ -6,6 +6,8 @@ Explore our Expedia-inspired e-commerce platform, where you can effortlessly boo
 :computer:Unique Project Name & logo :- BackPackers
 ---
 :star:Deployed Link:-https://golden-sorbet-745819.netlify.app/
+![img3](https://github.com/Harshitakatara34/Clone-of-Expedia/assets/112870595/380711f1-0090-4232-80fb-67ff9d5f416b)
+
 ---
  ## Technologies Used
 BackPackers Shop has been built using the following technologies:
@@ -14,11 +16,13 @@ HTML,CSS,Javascript
 This project was created by Team BackPackers. The Team Members are
 <br>
 1.Dibyendu - Home Page
+<br>
 2.Harshita Katara -  Product Page functionalities(sorting,Filtering)
 <br>
 3.Payal -Navbar
 <br>
 4.Jyoti Basoiya-  Footer
+<br>
 5.Vishal - Login&Signup Page
 ## Installation
 To install and run this project on your local machine, follow these steps:
